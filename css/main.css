@@ -1,0 +1,84 @@
+body {
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+}
+
+.link {
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.btn {
+  border: none;
+  border-radius: 22px;
+  font-size: 0.85em;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+.btn_white {
+  border: 1px solid #BC9CFF;
+  color: #BC9CFF;
+}
+
+.btn_purple {
+  background-color: #BC9CFF;
+  color: white;
+}
+
+.header {
+  padding: 15px 140px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header, .header-logo, .header-nav, .header-list, .header-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav {
+  min-width: 775px;
+}
+
+.header-logo {
+  width: 106px;
+}
+
+.header-list {
+  min-width: 450px;
+}
+
+.header-list__item {
+  text-decoration: none;
+}
+
+.header-list a {
+  list-style-type: none;
+}
+
+.header-form {
+  min-width: 310px;
+}
+
+.header-form input:first-child {
+  min-width: 90px;
+  height: 35px;
+}
+
+.header-form input:last-child {
+  min-width: 195px;
+  height: 35px;
+}
+/*# sourceMappingURL=main.css.map */

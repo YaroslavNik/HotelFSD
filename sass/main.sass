@@ -1,0 +1,51 @@
+$paddingSides: 140px
+$colorLinks: rgba(31, 32, 65, 0.5) //Dark 50%
+$btnColorPurple: #BC9CFF
+body
+    font-size: 14px
+.container
+    width: 100%
+.link
+    color: $colorLinks
+.btn
+    border: none
+    border-radius: 22px
+    font-size: 0.85em
+    font-weight: bold
+    font-style: normal
+    text-transform: uppercase
+    background-color: white
+    &_white
+        border: 1px solid $btnColorPurple
+        color: $btnColorPurple
+    &_purple
+        background-color: $btnColorPurple
+        color: white
+.header
+    padding: 15px $paddingSides
+    flex-wrap: wrap
+    &, &-logo, &-nav, &-list, &-form
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-nav
+        min-width: 775px
+    &-logo
+        width: 106px
+    &-list
+        min-width: 450px
+        &__item
+            text-decoration: none
+        a
+            list-style-type: none
+    &-form
+        min-width: 310px
+    &-form input:first-child
+        min-width: 90px
+        height: 35px
+    &-form input:last-child
+        min-width: 195px
+        height: 35px
+
+          
+
